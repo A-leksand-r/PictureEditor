@@ -1,0 +1,30 @@
+<Page x:Class="PictureEditor.ShowOriginalImage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:local="clr-namespace:PictureEditor"
+      mc:Ignorable="d"
+      Title="ShowOriginalImage" 
+      d:DesignHeight="*" 
+      d:DesignWidth="*">
+    <Grid>
+        <StackPanel x:Name = "PixelImage"
+                    Height="auto"
+                    Width="auto"
+                    Orientation="Vertical"
+                    HorizontalAlignment="Center"
+                    Margin="0,50,0,0">
+        </StackPanel>
+        <TextBox Width="130" Height="25" VerticalAlignment="Top" Margin="5,115,5,5" Name="textBox" HorizontalAlignment="Right">
+                
+        </TextBox>
+        <Button Content="Подогнать" Width="130" Height="25" Margin="5,10,5,5" HorizontalAlignment="Right" Click="ButtonBase_OnClick">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="5"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+    </Grid>
+</Page>

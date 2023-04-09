@@ -1,0 +1,52 @@
+﻿<Window x:Class="PictureEditor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="MainWindow"
+        Height="450"
+        MaxHeight="1080"
+        Width="800"
+        MaxWidth="1920"
+        WindowStyle="SingleBorderWindow">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="150"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Column="0" Background="BurlyWood" Width="150" HorizontalAlignment="Left">
+            <Button Content="Выбрать изображение" Width="130" Height="25" Margin="5,10,5,5" VerticalAlignment="Top" Click="DownloadImage">
+                <Button.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="5"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+            <Button Content="Исходное изображение" Width="130" Height="25" Margin="5,45,5,5" VerticalAlignment="Top" Click="ShowOriginalImage">
+                <Button.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="5"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+            <Button Content="Обработанное изображение" Width="130" Height="25" Margin="5,80,5,5" VerticalAlignment="Top" Click="ShowOriginalImage">
+                <Button.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="5"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+            
+        </Grid>
+        <Grid Grid.Column="1" Background="Beige">
+            <Frame x:Name="Picture"
+                   Width="auto"
+                   Height="auto"
+                   NavigationUIVisibility="Hidden"/>
+        </Grid>
+        <!-- <Canvas Width="100" Name="Canvas" Height="100" HorizontalAlignment="Left" VerticalAlignment="Top"></Canvas> -->
+        <!--<TextBox Name="TextBox" Height="100" Width="100"></TextBox>-->
+        <!-- <Button Content="Drop pixel" Width="60" Height="20" Click="ButtonBase_OnClick"/> -->
+    </Grid>
+</Window>

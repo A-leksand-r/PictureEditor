@@ -1,0 +1,21 @@
+<Page x:Class="PictureEditor.PreviewImage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:local="clr-namespace:PictureEditor"
+      mc:Ignorable="d"
+      Title="PreviewImage" 
+      d:DesignHeight="*" 
+      d:DesignWidth="*">
+    <Grid>
+        <StackPanel HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Margin="25, 25, 25, 25"
+                    Name="ImageStackPanel">
+            <Image Name="windowPreviewImage"
+                   Height="500"
+                   Width="500"/>
+        </StackPanel>
+    </Grid>
+</Page>
