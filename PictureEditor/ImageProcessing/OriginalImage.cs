@@ -16,7 +16,7 @@ public class OriginalImage
 
     public void CreatePixels()
     {
-        int countPixels = 1000;
+        int countPixels = 500;
         pixels = new Pixel[countPixels * countPixels];
         for (int i = 54; i <= countPixels * countPixels * 3 + 51; i = i + 3)
         {

@@ -24,8 +24,8 @@ public partial class ShowOriginalImage : Page
 
     private void DropImage()
     {
-        int countPixels = 1000;
-        for (int j = pixels.Length - 1; j >= 0; j = j - countPixels)
+        int countPixels = 500;
+        for (int j = pixels.Length - 1; j >= 0; j -= countPixels)
         { 
             StackPanel line = new StackPanel
             {

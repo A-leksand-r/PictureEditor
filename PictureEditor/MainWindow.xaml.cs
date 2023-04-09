@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using System.Media;
 using System.Printing;
 using System.Windows;
 using System.Windows.Input;
@@ -16,6 +17,7 @@ namespace PictureEditor
         public MainWindow()
         {
             InitializeComponent();
+            PixelResizer.ApplicationRender();
         }
 
         private string filePath = "";
@@ -51,10 +53,11 @@ namespace PictureEditor
 
         private void ShowOriginalImage(object sender, RoutedEventArgs e)
         {
-            OriginalImage originalImage = new OriginalImage();
-            originalImage.ReadImage(filePath);
-            originalImage.CreatePixels();
-            Picture.NavigationService.Navigate(new ShowOriginalImage(originalImage, filePath));
+            // OriginalImage originalImage = new OriginalImage();
+            // originalImage.ReadImage(filePath);
+            // originalImage.CreatePixels();
+            // Picture.NavigationService.Navigate(new ShowOriginalImage(originalImage, filePath));
         }
+        
     }
 }

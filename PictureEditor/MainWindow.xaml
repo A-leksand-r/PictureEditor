@@ -16,27 +16,39 @@
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
         <Grid Grid.Column="0" Background="BurlyWood" Width="150" HorizontalAlignment="Left">
-            <Button Content="Выбрать изображение" Width="130" Height="25" Margin="5,10,5,5" VerticalAlignment="Top" Click="DownloadImage">
-                <Button.Resources>
-                    <Style TargetType="Border">
-                        <Setter Property="CornerRadius" Value="5"/>
-                    </Style>
-                </Button.Resources>
-            </Button>
-            <Button Content="Исходное изображение" Width="130" Height="25" Margin="5,45,5,5" VerticalAlignment="Top" Click="ShowOriginalImage">
-                <Button.Resources>
-                    <Style TargetType="Border">
-                        <Setter Property="CornerRadius" Value="5"/>
-                    </Style>
-                </Button.Resources>
-            </Button>
-            <Button Content="Обработанное изображение" Width="130" Height="25" Margin="5,80,5,5" VerticalAlignment="Top" Click="ShowOriginalImage">
-                <Button.Resources>
-                    <Style TargetType="Border">
-                        <Setter Property="CornerRadius" Value="5"/>
-                    </Style>
-                </Button.Resources>
-            </Button>
+            
+            <StackPanel Orientation="Vertical">
+                <Button Content="Выбрать изображение" Width="130" Height="25" Margin="5,10,5,5" VerticalAlignment="Top" Click="DownloadImage">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="5"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+                <Button Content="Исходное изображение" 
+                        Width="130" 
+                        Height="25" 
+                        Margin="5,0,5,5" 
+                        VerticalAlignment="Top" Click="ShowOriginalImage">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="5"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+                <Button Content="Обработанное изображение" 
+                        Width="130" 
+                        Height="25" 
+                        Margin="5,0,5,5" 
+                        VerticalAlignment="Top" 
+                        Click="ShowOriginalImage">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="5"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+            </StackPanel>
             
         </Grid>
         <Grid Grid.Column="1" Background="Beige">

@@ -23,3 +23,28 @@ S:\C# Project\PictureEditor\PictureEditor\obj\Debug\net7.0-windows\PictureEditor
 S:\C# Project\PictureEditor\PictureEditor\obj\Debug\net7.0-windows\ShowOriginalImage.baml
 S:\C# Project\PictureEditor\PictureEditor\obj\Debug\net7.0-windows\PreviewImage.g.cs
 S:\C# Project\PictureEditor\PictureEditor\obj\Debug\net7.0-windows\PreviewImage.baml
+D:\CodeProds\PictureEditorHUEVIY\PictureEditor\bin\Debug\net7.0-windows\PictureEditor.exe
+D:\CodeProds\PictureEditorHUEVIY\PictureEditor\bin\Debug\net7.0-windows\PictureEditor.deps.json
+D:\CodeProds\PictureEditorHUEVIY\PictureEditor\bin\Debug\net7.0-windows\PictureEditor.runtimeconfig.json
+D:\CodeProds\PictureEditorHUEVIY\PictureEditor\bin\Debug\net7.0-windows\PictureEditor.dll
+D:\CodeProds\PictureEditorHUEVIY\PictureEditor\bin\Debug\net7.0-windows\PictureEditor.pdb
+D:\CodeProds\PictureEditorHUEVIY\PictureEditor\obj\Debug\net7.0-windows\PictureEditor.csproj.AssemblyReference.cache
+D:\CodeProds\PictureEditorHUEVIY\PictureEditor\obj\Debug\net7.0-windows\MainWindow.baml
+D:\CodeProds\PictureEditorHUEVIY\PictureEditor\obj\Debug\net7.0-windows\MainWindow.g.cs
+D:\CodeProds\PictureEditorHUEVIY\PictureEditor\obj\Debug\net7.0-windows\PreviewImage.g.cs
+D:\CodeProds\PictureEditorHUEVIY\PictureEditor\obj\Debug\net7.0-windows\ShowOriginalImage.g.cs
+D:\CodeProds\PictureEditorHUEVIY\PictureEditor\obj\Debug\net7.0-windows\App.g.cs
+D:\CodeProds\PictureEditorHUEVIY\PictureEditor\obj\Debug\net7.0-windows\PictureEditor_MarkupCompile.cache
+D:\CodeProds\PictureEditorHUEVIY\PictureEditor\obj\Debug\net7.0-windows\PictureEditor_MarkupCompile.lref
+D:\CodeProds\PictureEditorHUEVIY\PictureEditor\obj\Debug\net7.0-windows\PreviewImage.baml
+D:\CodeProds\PictureEditorHUEVIY\PictureEditor\obj\Debug\net7.0-windows\ShowOriginalImage.baml
+D:\CodeProds\PictureEditorHUEVIY\PictureEditor\obj\Debug\net7.0-windows\PictureEditor.g.resources
+D:\CodeProds\PictureEditorHUEVIY\PictureEditor\obj\Debug\net7.0-windows\PictureEditor.GeneratedMSBuildEditorConfig.editorconfig
+D:\CodeProds\PictureEditorHUEVIY\PictureEditor\obj\Debug\net7.0-windows\PictureEditor.AssemblyInfoInputs.cache
+D:\CodeProds\PictureEditorHUEVIY\PictureEditor\obj\Debug\net7.0-windows\PictureEditor.AssemblyInfo.cs
+D:\CodeProds\PictureEditorHUEVIY\PictureEditor\obj\Debug\net7.0-windows\PictureEditor.csproj.CoreCompileInputs.cache
+D:\CodeProds\PictureEditorHUEVIY\PictureEditor\obj\Debug\net7.0-windows\PictureEditor.dll
+D:\CodeProds\PictureEditorHUEVIY\PictureEditor\obj\Debug\net7.0-windows\refint\PictureEditor.dll
+D:\CodeProds\PictureEditorHUEVIY\PictureEditor\obj\Debug\net7.0-windows\PictureEditor.pdb
+D:\CodeProds\PictureEditorHUEVIY\PictureEditor\obj\Debug\net7.0-windows\PictureEditor.genruntimeconfig.cache
+D:\CodeProds\PictureEditorHUEVIY\PictureEditor\obj\Debug\net7.0-windows\ref\PictureEditor.dll

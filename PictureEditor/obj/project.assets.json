@@ -8,24 +8,26 @@
     "net7.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\sasho\\.nuget\\packages\\": {}
+    "C:\\Users\\gukov\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "S:\\C# Project\\PictureEditor\\PictureEditor\\PictureEditor.csproj",
+      "projectUniqueName": "D:\\CodeProds\\PictureEditorHUEVIY\\PictureEditor\\PictureEditor.csproj",
       "projectName": "PictureEditor",
-      "projectPath": "S:\\C# Project\\PictureEditor\\PictureEditor\\PictureEditor.csproj",
-      "packagesPath": "C:\\Users\\sasho\\.nuget\\packages\\",
-      "outputPath": "S:\\C# Project\\PictureEditor\\PictureEditor\\obj\\",
+      "projectPath": "D:\\CodeProds\\PictureEditorHUEVIY\\PictureEditor\\PictureEditor.csproj",
+      "packagesPath": "C:\\Users\\gukov\\.nuget\\packages\\",
+      "outputPath": "D:\\CodeProds\\PictureEditorHUEVIY\\PictureEditor\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\sasho\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\gukov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0-windows"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -62,7 +64,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\sasho\\.dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
